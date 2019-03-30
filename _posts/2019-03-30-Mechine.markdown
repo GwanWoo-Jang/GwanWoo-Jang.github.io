@@ -34,7 +34,7 @@ title: "[머신러닝] 머신러닝 기초 정리 (역전파)"
 
 z=f(x,y)=x+y
 덧셈 노드의 로컬 그래디언트는 아래와 같습니다.
-![Alt text](../images/ML_2.png)
+![Alt text](/images/ML_2.png)
 
 ∂z∂x=∂(x+y)∂x=1∂z∂y=∂(x+y)∂y=1
 덧셈 노드의 계산그래프는 아래와 같습니다. 현재 입력값에 대한 Loss의 변화량은 로컬 그래디언트에 흘러들어온 그래디언트를 각각 곱해주면 됩니다. 덧셈 노드의 역전파는 흘러들어온 그래디언트를 그대로 흘려보내는 걸 확인할 수 있습니다.
@@ -44,7 +44,7 @@ z=f(x,y)=x+y
 
 z=f(x,y)=xy
 곱셈 노드의 로컬 그래디언트는 아래와 같습니다.
-![Alt text](../images/ML_3.png)
+![Alt text](/images/ML_3.png)
 
 ∂z∂x=∂(xy)∂x=y∂z∂y=∂(xy)∂y=x
 곱셈 노드의 계산그래프는 아래와 같습니다. 현재 입력값에 대한 Loss의 변화량은 로컬 그래디언트에 흘러들어온 그래디언트를 각각 곱해주면 됩니다. 곱셈 노드의 역전파는 순전파 때 입력 신호들을 서로 바꾼 값을 곱해서 하류로 흘려보내는 걸 확인할 수 있습니다.
@@ -57,7 +57,7 @@ ReLU 노드의 로컬 그래디언트는 아래와 같습니다.
 
 ∂y∂x=1(x>0)∂y∂x=0(x≤0)
 계산그래프는 아래와 같습니다.
-![Alt text](../images/ML_4.png)
+![Alt text](/images/ML_4.png)
 ### Sigmoid 노드
 시그모이드(sigmoid) 함수는 아래와 같이 정의됩니다.
 
@@ -66,6 +66,6 @@ y=11+exp(−x)
 
 ∂y∂x=y(1−y)
 계산그래프는 아래와 같습니다.
-![Alt text](../images/ML_5.png)
+![Alt text](/images/ML_5.png)
 
 출처링크 : https://ratsgo.github.io/deep%20learning/2017/05/14/backprop/
