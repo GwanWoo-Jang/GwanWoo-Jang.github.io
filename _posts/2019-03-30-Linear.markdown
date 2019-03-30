@@ -40,4 +40,7 @@ Linear Regression 에 대해 사전적인 의미를 찾아 보면 선형 회귀 
 
 여기에서 m은 실제 데이터의 갯수를 나타낸다.
 
+출처
+
+https://blog.martinwork.co.kr/ai/2018/07/10/what-is-linear-regression.html
 
