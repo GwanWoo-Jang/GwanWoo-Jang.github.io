@@ -5,8 +5,10 @@ layout: post
 title: "[머신러닝] 기초정리(RNN)"
 
 ---
-### RNN
-RNN의 기본 구조
+## RNN
+### RNN의 기본 구조
+
+
 ![Alt text](/images/2019-03-30-RNN/RNN_1.png)
 
 RNN은 히든 노드가 방향을 가진 엣지로 연결돼 순환구조를 이루는(directed cycle) 인공신경망의 한 종류입니다. 음성, 문자 등 순차적으로 등장하는 데이터 처리에 적합한 모델로 알려져 있는데요. Convolutional Neural Networks(CNN)과 더불어 최근 들어 각광 받고 있는 알고리즘입니다.
